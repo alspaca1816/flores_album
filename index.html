@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Englebert&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flores pa mi orquídea</title>
+</head>
+<body>
+    <p class="titulo">Pequeño regalito para ti, mi vida</p>
+
+    <div class="animacion">
+        <div class="album">
+            <div class="intermedio"></div>
+            <div class="pagina pag_izquierda" id="izquierda_est">
+                <div class="cont_pag" id="cont_pag_izq"></div>
+            </div>
+            <div class="pagina pag_derecha" id="derecha_est">
+                <div class="cont_pag" id="cont_pag_der"></div>
+            </div>
+
+            <div class="pag_animada" id="pag_animada">
+                <div class="pag_cara" id="pag_cara"></div>
+                <div class="pag_reverso" id="pag_reverso"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="control" aria-label="Navegación por el álbum">
+        <button class="control_boton" id="boton_retroceder" aria-label="Devolver">&#8592;</button>
+        <span class="control_info" id="control_info"></span>
+        <button class="control_boton" id="boton_avanzar" aria-label="Avanzar">&#8594;</button>
+    </div>
+
+    <p class="pop_up">Puedes moverte con las flechas del teclado amor</p>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
