@@ -291,10 +291,10 @@ body {
 }
 
 .flor-img img {
-    max-width: 140px;
-    max-height: 140px;       /* CAMBIAR según el tamaño de los dibujos */
+    max-width: 120px;
+    max-height: 120px;
     object-fit: contain;
-    mix-blend-mode: multiply; /* quitar si los PNGs tienen fondo blanco */
+    mix-blend-mode: multiply;
 }
 
 .nombre-flor {
