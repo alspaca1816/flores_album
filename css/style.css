@@ -292,7 +292,7 @@ body {
 
 .flor-img img {
     max-width: 100px;
-    max-height: 100px;
+    max-height: 85px;
     object-fit: contain;
     mix-blend-mode: multiply;
 }
